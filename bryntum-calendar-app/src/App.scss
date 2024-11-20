@@ -1,0 +1,43 @@
+
+@import "@bryntum/calendar/calendar.stockholm.css"; // import bryntum theme
+#calendarContainer {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.bryntum-calendar {
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.6); /* Semi-transparent overlay */
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+#googleSignInButton {
+  margin-bottom: 1rem;
+}
+
+
+/* App.scss */
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
