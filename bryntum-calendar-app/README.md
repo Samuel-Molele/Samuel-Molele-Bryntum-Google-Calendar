@@ -32,7 +32,7 @@ Additionally, you will need a Google Cloud project with OAuth2 credentials:
 ## Getting Started
 
 ### Clone the Repository
-- git clone https://github.com/your-repo/google-calendar-event-viewer.git
+- git clone https://github.com/Samuel-Molele/Samuel-Molele-Bryntum-Google-Calendar
   ```bash
   cd bryntum-calendar-app
 
